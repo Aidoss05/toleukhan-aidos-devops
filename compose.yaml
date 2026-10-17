@@ -1,0 +1,10 @@
+services:
+  app:
+    build: .
+    image: toleukhan-aidos-devops
+    container_name: toleukhan-aidos-compose
+    environment:
+      APP_NAME: Toleukhan_Aidos_DevOps
+      APP_VERSION: "1.0"
+      APP_ENV: development
+    restart: "no"
