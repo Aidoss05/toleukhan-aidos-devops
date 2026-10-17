@@ -26,3 +26,4 @@ if [ -f ~/devops/toleukhan_aidos/Toleukhan_Aidos_info.txt ]; then
 else
     echo "Student information file does not exist."
 fi
+echo "Application: Toleukhan_Aidos_DevOps"
