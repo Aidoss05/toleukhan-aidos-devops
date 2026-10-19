@@ -4,7 +4,8 @@ services:
     image: toleukhan-aidos-devops
     container_name: toleukhan-aidos-compose
     environment:
-      APP_NAME: Toleukhan_Aidos_DevOps
-      APP_VERSION: "1.0"
-      APP_ENV: development
+      STUDENT_NAME: Aidos
+      STUDENT_SURNAME: Toleukhan
+      STUDENT_GROUP: IT2-2309
+      STUDENT_ID: "37599"
     restart: "no"
